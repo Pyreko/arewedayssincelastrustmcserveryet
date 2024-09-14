@@ -11,12 +11,20 @@ fn Application() -> impl IntoView {
             <div id="main">
                 <p id="status"> "No" </p>
                 <div id="subtitle">
-                    <p><a href="https://dayssincelastrustmcserver.com">"dayssincelastrustmcserver.com"</a> " is "<a href="https://github.com/GoldenStack/dayssincelastrustmcserver">"written in Astro/JS"</a>", which is not Rust."</p>
+                    <p>
+                        <a href="https://dayssincelastrustmcserver.com" target="_blank" rel="noopener noreferrer">"dayssincelastrustmcserver.com"</a>
+                        " is "
+                        <a href="https://github.com/GoldenStack/dayssincelastrustmcserver" target="_blank" rel="noopener noreferrer">"written in JavaScript"</a>
+                        ", which is not Rust."</p>
                 </div>
             </div>
             <div id="footer">
                 <p>
-                    "Site made in Rust with love "<a href="">"(GitHub)"</a>"."
+                    "Site made in
+                    "<a href="https://www.rust-lang.org/" target="_blank" rel="noopener noreferrer">"Rust"</a>
+                    " via "
+                    <a href="https://leptos.dev/" target="_blank" rel="noopener noreferrer">"Leptos"</a>" with love "
+                    <a href="https://github.com/Pyreko/arewedayssincelastrustmcserveryet" target="_blank" rel="noopener noreferrer">"(GitHub)"</a>"."
                 </p>
                 <p>"Please note that this is all meant in good fun!"</p>
             </div>
